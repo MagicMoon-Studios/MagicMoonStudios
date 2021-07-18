@@ -1,10 +1,10 @@
 
-const app = require('express')()
+const express = require('express')
 const bodyParser = require('body-parser')
 const morgan = require('morgan')
 const cors = require('cors')
 const path = require('path')
-
+const app=express();
 
 // --------------------------------
 require('dotenv').config();
@@ -48,6 +48,6 @@ app.use((req, res) => {
     })
 })
 const PORT = process.env.PORT || 5000
-server.listen(PORT, () => {
+app.listen(PORT, () => {
     console.log(`Listening at port ${PORT}`)
 })
