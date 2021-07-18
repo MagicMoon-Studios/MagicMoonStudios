@@ -1,0 +1,94 @@
+/* ====================================
+            * FOOTER *
+==================================== */
+.footer{
+    margin-top: 10px;
+    width: 100%;
+    border-top: 1px solid var(--border-color);
+    
+}
+.footer-container{
+    width: 100%;
+    padding: 20px;
+    height: 100%;
+}
+.footer-container h2{
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+}
+.footer-colum2 ul{
+    margin-top: 10px;
+    width: 100%;
+}
+.footer-colum2 ul li{
+    padding: 5px 0;
+    width: 100%;
+}
+.footer-colum2>ul>li>div{
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+.footer-colum2 ul li a{
+    align-items: center;
+    color: var(--text-color-secondary);
+    text-decoration: none;
+}
+.footer-colum2 ul li a:hover{
+    text-decoration: underline;
+    color: var(--primary);
+}
+
+.footer-colum2 .ion-icon{
+    height: 1.5rem;
+    margin-right: 5px;
+    fill: var(--text-color-secondary);
+}
+/* --------------- */
+.copyright{
+    width: 100%;
+    border-top: 1px solid var(--border-color);
+    padding: 10px;
+    font-size: 0.7rem;
+    background: var(--bg-secondary);
+}
+.copyright a{
+    color: var(--text-heading-color);
+    text-decoration: none;
+    text-align: center;
+}
+.copyright a:hover{
+    text-decoration: underline;
+    color: var(--color-primary);
+    text-decoration:none;
+}
+.copyright-left span{
+    font-weight: 900;
+}
+.copyright-right ul{
+    display: flex;
+    right: 0;
+    float: right;
+}
+.copyright-right ul li{
+    margin-right: 2px;
+    margin-left: 2px;
+    list-style: none;
+}
+@media only screen and (max-width:600px){
+    .copyright{
+        text-align: center;
+    }
+    .copyright-right>div{
+        text-align: center;
+    }
+    .copyright-right ul{
+        float: none;
+        margin: auto;
+        align-items: center;
+        text-align: center;
+        display: inline-block;
+    }
+    
+}

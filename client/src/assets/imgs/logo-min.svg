@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 78" version="1.1" id="svg17" class="Logo">
+   <metadata id="metadata21"></metadata>
+
+   <defs  id="defs3">
+      <linearGradient  gradientTransform="rotate(25)" id="5856506c-b5a2-449f-8bb4-a0620a1627fb" x1="0" y1="0" x2="1" y2="0">
+         <stop  offset="0%" stop-color="#422F75" stop-opacity="1" id="stop11" />
+         <stop  offset="100%" stop-color="#C0B3EC" stop-opacity="1" id="stop13" />
+      </linearGradient>
+      <linearGradient xlink:href="#5856506c-b5a2-449f-8bb4-a0620a1627fb" id="linearGradient57" gradientTransform="scale(0.98220161,1.0181209)" x1="1.7959653" y1="0" x2="100.01613" y2="0" gradientUnits="userSpaceOnUse" />
+      <linearGradient xlink:href="#5856506c-b5a2-449f-8bb4-a0620a1627fb" id="linearGradient59" gradientTransform="scale(1.0839683,0.92253616)" x1="51.067913" y1="24.237532" x2="89.715721" y2="24.237532" gradientUnits="userSpaceOnUse" />
+      <linearGradient xlink:href="#5856506c-b5a2-449f-8bb4-a0620a1627fb" id="linearGradient130" gradientUnits="userSpaceOnUse" gradientTransform="scale(0.98220161,1.0181209)" x1="1.7959653" y1="0" x2="100.01613" y2="0" />
+   </defs>
+   <defs  id="defs11">
+      <linearGradient  gradientTransform="rotate(25)" id="93e0d0ac-eeb8-41d0-b5a9-0cb6d464623a" x1="0" y1="0" x2="1" y2="0">
+         <stop  offset="0%" stop-color="#422F75" stop-opacity="1" id="stop6" />
+         <stop  offset="100%" stop-color="#C0B3EC" stop-opacity="1" id="stop8" />
+      </linearGradient>
+   </defs>
+   <g  id="2e251836-bbc4-4797-98f6-b97cb97e7d79" stroke="none" fill="url(#5856506c-b5a2-449f-8bb4-a0620a1627fb)" transform="matrix(0.70295405,0,0,0.70295405,2.082599,4.5621738)" style="fill:url(#linearGradient57)">
+      <path d="m 81.035,72.347 c -21.776,0 -39.429,-17.65 -39.429,-39.429 0,-13.43 6.729,-25.273 16.989,-32.399 C 56.355,0.215 54.085,0 51.761,0 24.149,0 1.764,22.387 1.764,50 c 0,27.613 22.385,50 49.997,50 21.125,0 39.15,-13.123 46.475,-31.639 -5.203,2.529 -11.027,3.986 -17.201,3.986 z" id="path18" style="fill:url(#linearGradient130)" />
+      <path d="m 86.217,35.946 c 0,0 -1.015,6.772 -2.45,8.317 -1.641,1.757 -8.589,2.721 -8.589,2.721 0,0 6.811,1.106 8.407,2.71 1.601,1.596 2.632,8.32 2.632,8.32 0,0 1.039,-6.622 2.635,-8.233 1.617,-1.639 8.397,-2.797 8.397,-2.797 0,0 -6.78,-1.118 -8.397,-2.809 -1.518,-1.581 -2.635,-8.229 -2.635,-8.229 z M 61.799,22.36 c 0,0 -0.591,3.952 -1.43,4.856 -0.957,1.023 -5.013,1.586 -5.013,1.586 0,0 3.976,0.649 4.908,1.583 0.935,0.931 1.535,4.856 1.535,4.856 0,0 0.607,-3.865 1.537,-4.805 0.942,-0.957 4.9,-1.634 4.9,-1.634 0,0 -3.958,-0.651 -4.9,-1.638 -0.884,-0.922 -1.537,-4.804 -1.537,-4.804 z" id="path20" style="fill:url(#linearGradient59)" />
+   </g>
+</svg>
