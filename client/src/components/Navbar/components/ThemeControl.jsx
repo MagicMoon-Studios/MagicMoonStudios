@@ -45,7 +45,7 @@ const ThemeControl = () => {
     return (
         <>
             <div className="">
-                <label for="switch">
+                <label >
                     <input type="checkbox" id="switch" />
                     <div className="toggle-wrapper" id="toggle-wrapper">
                         <div className="day-night" id="day-night"></div>

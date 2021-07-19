@@ -3,8 +3,7 @@ import { Row, Col } from 'antd'
 import bgStars from '../../assets/media/bg_stars3.png'
 import homeHeadL from '../../assets/media/home-header-layer5.png'
 import homeHeadL2 from '../../assets/media/home-header-layer-sm.png'
-import pweb from '../../assets/media/coding.svg'
-import computer2 from '../../assets/media/computer2.svg'
+import pWeb from '../../assets/media/coding.svg'
 import computer from '../../assets/media/computer.svg'
 import edit from '../../assets/media/edit.svg'
 import graph from '../../assets/media/graph.svg'
@@ -18,7 +17,7 @@ const HomePage = () => {
 
                 <img src={homeHeadL} alt="" className="bg-home-img" />
                 <img src={homeHeadL2} alt="" className="bg-home-img2" />
-                <Row className="text-bg ">
+                <Row className="text-bg">
                     <Col xs={24} md={12} sm={24} className="text-bg-1">
                         <p>Design of
                             <span>web pages</span>
@@ -27,7 +26,7 @@ const HomePage = () => {
 
                     </Col>
                     <Col xs={24} md={12} sm={24} className="text-bg-2">
-                        <Link className="banner-btn">go to it</Link>
+                        <Link to="/" className="banner-btn">Get a quote</Link>
                     </Col>
                 </Row>
             </div>
@@ -48,7 +47,7 @@ const HomePage = () => {
                         <div className="card-info">
                             <Link to="/">
                                 <div className="card-img">
-                                    <img src={pweb} alt="" />
+                                    <img src={pWeb} alt="" />
                                 </div>
                                 <p>
                                     Custom Web Pages
@@ -98,13 +97,30 @@ const HomePage = () => {
                         </div>
 
                     </Col>
+                    <Col xs={24} md={24} sm={24} className="container-info">
+                        <div className="card-info">
+                            <Link to="/" className="banner-btn">Know us</Link>
+                        </div>
+                    </Col>
                 </Row>
             </div>
-            <div className="card content-projects">
-                hola
+            <div className="content-methodology">
+                <MainContent>
+                    <h1>Methodology <span className="mText-logo">Magic Moon</span></h1>
+                    <p>Designing your website is a fundamental element, but it is <span>only the starting point</span> for what we can achieve.</p>
+                    <div className="publicity">Discover our<span> Digital Agency</span> approach for the growth of your business.</div>
+                </MainContent>
             </div>
-            <MainContent>
-            </MainContent>
+            <div className="content-contact">
+                <div className="container-contact">
+                <h1>Get a quote</h1>
+                <p>Take your business to the next level</p>
+                <div className="info">
+                Tell us what you need, we will contact you shortly.
+                </div>
+                </div>
+            </div>
+
         </>
     )
 }
