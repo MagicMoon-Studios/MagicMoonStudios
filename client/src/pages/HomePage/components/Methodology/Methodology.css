@@ -1,0 +1,48 @@
+/* methodology */
+
+.content-methodology{
+    padding: 39px 0;
+    align-items: center;
+    text-align: center;
+    
+}
+.content-methodology h1{
+    margin: 40px 0;
+}
+.mText-logo{
+    font-size: 1.8rem;
+  font-weight: bold;
+  margin-left: 2px;
+  background: #422F75;
+  background: -webkit-linear-gradient(to right, rgb(65, 47, 117) 0%, #C0B3EC 100%);
+  background: -moz-linear-gradient(to right, #422F75 0%, #C0B3EC 100%);
+  background: linear-gradient(to right,#422F75 0%, #C0B3EC 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.content-methodology p{
+    width:60%;
+    margin: 20px auto;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.content-methodology p span{
+    font-size: 1.05rem;
+    font-weight: bold;
+}
+.content-methodology .publicity{
+    width:50%;
+    margin: 20px auto;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+.content-methodology .publicity span{
+    font-weight: bold;
+    font-size: 1.05rem;
+}

@@ -44,7 +44,7 @@ const ThemeControl = () => {
     },[])
     return (
         <>
-            <div className="">
+            <div className="toggle-theme">
                 <label >
                     <input type="checkbox" id="switch" />
                     <div className="toggle-wrapper" id="toggle-wrapper">
