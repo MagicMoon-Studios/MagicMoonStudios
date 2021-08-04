@@ -1,8 +1,11 @@
 import { Link } from 'react-router-dom'
+import { FacebookFilled, GithubFilled } from '@ant-design/icons';
 import './Footer.css'
 const Footer = () => {
     return (
-        <footer className="contai">
+        <footer 
+        // className=""
+        >
             <div className="footer">
                 <div className="footer-container grid col-3 med-col-1 peq-col-1">
                     <div className="footer-colum1 ">
@@ -14,16 +17,14 @@ const Footer = () => {
                     <div className="footer-colum2">
                         <h2>social media</h2>
                         <ul>
-                            {/* {[...redes].map(i =>
+                            {[...redes].map(i =>
                                 <li key={i.id}>
-                                    <div>
-                                        <a href={i.link} target="_blank">
+                                        <Link to={{ pathname: i.link}} target="_blank">
                                             {i.icon} <span>{i.name}</span>
-                                        </a>
-                                    </div>
+                                        </Link>
                                 </li>
 
-                            )} */}
+                            )}
                         </ul>
                     </div>
                     <div className="footer-colum2">
@@ -81,20 +82,20 @@ export default Footer
 
 
 
-// const redes = [
-//     {
-//         id:12,
-//         link: "https://www.facebook.com/InfinitMovilShop",
-//         icon: <FaceIcon className="ion-icon" />,
-//         name: "Siguenos en facebook"
-//     },
-//     {
-//         id:21,
-//         link: "/",
-//         icon: <TwitterIcon className="ion-icon" />,
-//         name: "Siguenos en Twitter"
-//     },
-// ]
+const redes = [
+    {
+        id:1,
+        link: "https://www.facebook.com",
+        icon: <FacebookFilled/>,
+        name: "follow us on facebook"
+    },
+    {
+        id:2,
+        link: "https://github.com/MagicMoon-Studios",
+        icon: <GithubFilled />,
+        name: "follow us on github"
+    },
+]
 // const contact = [
 //     {
 //         id:31,

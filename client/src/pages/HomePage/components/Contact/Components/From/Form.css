@@ -1,4 +1,4 @@
-/* form starting stylings ------------------------------- */
+/* form starting stylings */
 .content-form{
     display:flex;
     flex-direction:column;
@@ -9,7 +9,6 @@
 }
 .contact-form{
     position:relative;
-    /* z-index: 3; */
 }
 .content-group{
     background:var(--bg-primary);
@@ -23,11 +22,11 @@
     position: absolute;
     left:-30px;
     /* top: 300px; */
-    bottom:20px;
+    bottom:40px;
     transform: rotate(-90deg);
     transform-origin: left top 0;
     padding: 5px 50%;
-    background-color: var(--secondary);
+    background-color: var(--text-secondary);
     opacity: 0.9;
     font-size: 1.2em;
     font-weight:600;
